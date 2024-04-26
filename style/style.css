@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'archivo';
+    src: url('fonts/ArchivoBlack-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --dark: #ffff;
+    --background: #24114993;
+    --white: #ffffff81; 
+
+}
+*{
+    padding: 0px;
+    font-family:'archivo' ;
+}
+body{
+    background-color: var(--background);
+    
+}
+.Form-div{
+    background-color: rgba(0, 0, 0, 0.075);
+    padding: 0.74rem;
+    margin: 25px;
+    display: block;
+    align-items: center;
+    color: var(--white);
+}
+#form-calc{
+    text-align: right;
+}
+.form-altura{
+    font-size: 25px;
+}
+.form-peso{
+    font-size: 25px;
+}
+.resultado-text{
+    display: none;
+}
+#directs-footer{
+    text-align: center;
+    height: 50px;
+    margin-top: 550px;
+    color: var(--dark);
+    font-family:"Arial, Helvetica, sans-serif";
+}

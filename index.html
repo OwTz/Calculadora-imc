@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏋️‍♀️ | Calculadora de IMC</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/jquery/jquery-3.7.1.min.js"></script>
+    <!-- importação das fontes do google -->
+    
+    <!-- fim das importação das fontes do google -->
+    </head>
+<body>
+    
+    <div class="Form-div" id="Form-div">
+        <form id="form-calc">
+            <div class="form-peso">
+            Peso  <input type="number" id="form-value-peso">
+            </div>
+            <div class="form-altura">
+            Altura   <input type="number" id="form-value-altura">
+            </div>
+            <input type="submit" value="Calcular" onclick="calcularimc()"> 
+
+            <div class="form-resultado">
+                <a id="resultado-text"> </a>
+            </div>
+        </form>
+    </div>
+    
+</body>
+<footer id="directs-footer">
+    <p> this site as developed by: @owtz</p>
+
+</footer>
+<script src="script/calcularImc.js"> </script>
+</html>
